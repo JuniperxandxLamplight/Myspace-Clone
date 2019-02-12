@@ -1,0 +1,177 @@
+html{
+  background-color: lightgray;
+}
+body {
+  background-color: white;
+  width: 800px;
+  height: 2400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+a{
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+.header {
+  display:flex;
+  flex-wrap: wrap;
+  height: 125px;
+  background-color: #0000CC;
+  color: white;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+  margin-left: 60px;
+}
+.topnav{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+.topnav .left{
+  margin: 0;
+  margin-right: 50px;
+}
+.topnav .right{
+  margin: 0;
+  margin-left: 200px;
+}
+.nav-bar {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: flex-end;
+  margin: 0;
+  padding-right: 89px;
+  padding-left: 89px;
+  background-color: #6699FF;
+}
+.columns{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 2245px;
+  padding-left: 20px;
+}
+.sectionHeader{
+  background-color: #FFCC99;
+}
+.green{
+  color: green;
+}
+.textHeader{
+  font-size: 15px;
+  color: #FF6633;
+}
+.tom {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  padding-top: 10px;
+}
+.tom img{
+  width: 170;
+  align-self: flex-start;
+}
+.tom p{
+  margin-top: -8px;
+  align-self: flex-end;
+  padding-left: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.contact-tom {
+  width: 302px;
+  height: 132px;
+  border: 2px solid blue;
+}
+
+.url {
+  margin-top: 20px;
+  width: 298px;
+  height: 26px;
+  border: 1px solid blue;
+  font-size: 11px;
+}
+
+.url p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.interests {
+  margin-top: 30px;
+  width: 300px;
+  height: 1310px;
+  border: 2px solid blue;
+}
+
+.details {
+  margin-top: 18px;
+  width: 300px;
+  height: 170px;
+  border: 2px solid blue;
+}
+
+.school {
+  margin-top: 30px;
+  width: 300px;
+  height: 229px;
+  border: 2px solid blue;
+}
+
+.network {
+  margin-top: 50px;
+  width: 433px;
+  height: 73px;
+  border: 2px solid blue;
+}
+
+.blurbs {
+  height: 429px;
+  width: 437px;
+}
+
+.friends {
+  width: 437px;
+  margin-top: -25px;
+}
+.count{
+  margin-top: -30px;
+  text-align: left;
+}
+.friendsList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 437px;
+}
+.view{
+  text-align: right;
+  margin-right: 5px;
+  color: crimson;
+  font-weight: bold;
+}
+
+.friend{
+  margin: 3px;
+}
+
+.red{
+  color: red;
+}
+
+.comments{
+  width: 437px;
+
+}
